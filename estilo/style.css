@@ -37,6 +37,7 @@ main {
     text-align: left;
     top: 50%;
     left: 50%;
+    width: 70vw;
     height: 560px;
     border-radius: 20px;
     font-family: 'Montserrat', sans-serif;
