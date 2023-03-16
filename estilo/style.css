@@ -51,51 +51,51 @@ main > section > div#imagem {
     height: 250px;
 }
 
-main > section#conteudo {
+main > section div#conteudo {
     padding: 10px;
 }
 
-main > section#conteudo h1 {
+main > section div#conteudo h1 {
     font-family: 'Fraunces', serif;
 }
 
-main > section#conteudo p {
+main > section div#conteudo p {
     color: gray;
 }
 
-main > section#conteudo p:nth-child(1) {
+main > section div#conteudo p:nth-child(1) {
     text-transform: uppercase;
     letter-spacing: 3px;
     padding: 5px;
 }
 
-main > section#conteudo > h1 {
+main > section div#conteudo > h1 {
     padding: 5px;
     margin-bottom: 5px;
 }
 
-main > section#conteudo > div#valor > p {
+main > section div#conteudo > div#valor > p {
     color: var(--cor2);
     font-size: 2em;
     margin: 10px 0;
 }
 
-main > section#conteudo > div#valor > p::after {
+main > section div#conteudo > div#valor > p::after {
     content: ' 169,99';
     color: gray;
     text-decoration: line-through;
     font-size: .4em;
 }
 
-main > section#conteudo > div#botao {
+main > section div#conteudo > div#botao {
     background-color: var(--cor2);
     height: 40px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 5px;
     border-radius: 10px;
 }
 
-main > section#conteudo > div#botao > a {
+main > section div#conteudo > div#botao > a {
     display: block;
     width: 100%;
     color: white;
